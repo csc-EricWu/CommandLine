@@ -84,7 +84,7 @@
 		5D06885F19674DA600BBFAAC /* CommandLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = CommandLine.swift; sourceTree = "<group>"; tabWidth = 2; usesTabs = 0; };
 		5D068866196A212A00BBFAAC /* Option.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; tabWidth = 2; usesTabs = 0; };
 		5D449A17198B015E00F9A8A6 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; tabWidth = 2; usesTabs = 0; };
-		5D449B63198B412E00F9A8A6 /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
+		5D449B63198B412E00F9A8A6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5D8DC808198D8BA0007CD61B /* StringExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; name = StringExtensionTests.swift; path = Tests/CommandLineKitTests/StringExtensionTests.swift; sourceTree = SOURCE_ROOT; tabWidth = 2; usesTabs = 0; };
 /* End PBXFileReference section */
 
@@ -119,7 +119,7 @@
 		5D06883919674D7D00BBFAAC = {
 			isa = PBXGroup;
 			children = (
-				5D449B63198B412E00F9A8A6 /* ReadMe.md */,
+				5D449B63198B412E00F9A8A6 /* README.md */,
 				5D06884519674D7D00BBFAAC /* CommandLineKit */,
 				1968E1351C85922A00418122 /* Tests */,
 				5D06884419674D7D00BBFAAC /* Products */,
@@ -408,7 +408,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -461,7 +461,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				METAL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -549,7 +549,7 @@
 				METAL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.jatoben.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -574,7 +574,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
